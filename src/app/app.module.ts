@@ -7,13 +7,17 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ContentComponent } from './content/content.component';
+import { NewsfeedComponent } from './newsfeed/newsfeed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactsComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    ContentComponent,
+    NewsfeedComponent
   ],
   imports: [
     BrowserModule,
